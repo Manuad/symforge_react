@@ -203,8 +203,7 @@ export default function Home() {
         <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
           <a href="#inicio" className="flex items-center space-x-2">
             <div className="relative w-8 h-8">
-              <div className="absolute inset-0 bg-primary rounded-lg transform rotate-45"></div>
-              <div className="absolute inset-1 bg-background rounded transform rotate-45"></div>
+              <img className='object-cover' src="./favicon.ico" alt="SymForge"/>
             </div>
             <span className="text-2xl font-bold">Symforge</span>
           </a>
@@ -237,13 +236,10 @@ export default function Home() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
             <div className="text-center">
               <div className="relative w-24 h-24 sm:w-32 sm:h-32 mx-auto mb-6 sm:mb-8">
-                <div className="absolute inset-0 bg-primary rounded-full opacity-10 animate-pulse"></div>
-                <div className="absolute inset-3 sm:inset-4 bg-primary rounded-full opacity-20 animate-pulse" style={{ animationDelay: '0.5s' }}></div>
-                <div className="absolute inset-6 sm:inset-8 bg-primary rounded-full flex items-center justify-center">
-                  <div className="relative w-8 h-8 sm:w-12 sm:h-12">
-                    <div className="absolute inset-0 bg-primary rounded-lg transform rotate-45"></div>
-                    <div className="absolute inset-1 bg-background rounded transform rotate-45"></div>
-                  </div>
+                <div className="absolute inset-0 bg-primary rounded-full opacity-0 animate-pulse"></div>
+                <div className="absolute inset-3 sm:inset-4 bg-primary-400 rounded-full opacity-10 animate-pulse" style={{ animationDelay: '0.3s' }}></div>
+                <div className="absolute inset-6 sm:inset-8 bg-primary-500 rounded-full flex items-center justify-center">
+                  <img className='object-cover' src="./favicon.ico" alt="SymForge"/>
                 </div>
               </div>
               
