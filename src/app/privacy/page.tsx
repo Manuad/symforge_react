@@ -34,7 +34,7 @@ export default function PrivacyPolicy() {
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h1 className="text-4xl font-bold text-foreground mb-4">
             Aviso de{' '}
-            <span className="bg-gradient-to-r from-teal-700 to-cyan-600 bg-clip-text text-transparent">
+            <span className="text-primary bg-clip-text">
               Privacidad
             </span>
           </h1>
